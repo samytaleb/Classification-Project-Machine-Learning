@@ -16,7 +16,7 @@ The project consists of two main parts:
 
 ## Dataset
 
-The dataset is stored in **NumPy arrays**:
+The analysis expects the following **NumPy arrays**, which are **not included in this repository**. You must obtain the dataset from an authorized source and prepare these files before running the notebook:
 
 - **X_tp1.npy**: A `(10000, 180)` NumPy matrix containing ECG signals.
 - **Y_tp1.npy**: A `(10000,)` NumPy vector with corresponding labels (`'A'`, `'L'`, `'N'`, `'R'`, `'V'`).
